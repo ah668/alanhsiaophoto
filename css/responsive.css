@@ -1,0 +1,471 @@
+/** Width between 1200x to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 1200px) {
+
+}
+
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Navbar */
+  nav {
+    padding: 5px 5px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 10px;
+    padding-right: 7px;
+    display: block;
+  }
+  /* Education */
+  .head-info .header-content .cmaster h1 {
+    font-size: 32px;
+  }
+  #education .div-img-bg {
+    padding: 0;
+  }
+  #education .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #education .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #education .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* Experience */
+  #experience .div-img-bg {
+    padding: 0;
+  }
+  #experience .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #experience .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #experience .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #photography .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 767px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 767px) {
+
+  /* Navbar */
+  nav {
+    padding: 5px 5px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 10px;
+    padding-right: 7px;
+    display: block;
+  }
+  /* education */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #education .div-img-bg {
+    padding: 0;
+  }
+  #education .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #education .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #education .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* experience */
+  #experience .div-img-bg {
+    padding: 0;
+  }
+  #experience .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #experience .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #experience .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  /* portfolio */
+  #photography .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 600px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 600px) {
+
+  /* Navbar */
+  nav {
+    padding: 5px 5px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 10px;
+    padding-right: 7px;
+    display: block;
+  }
+  /* education */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #education .div-img-bg {
+    padding: 0;
+  }
+  #education .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #education .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #education .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+/* experience */
+  #experience .div-img-bg {
+    padding: 0;
+  }
+  #experience .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #experience .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #experience .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #photography .portfolio-list .nav li {
+    float: none;
+    margin: 10px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 480px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 480px) {
+
+  .header-content h1 {
+    font-size: 34px;
+  }
+  
+  /* Navbar */
+  nav {
+    padding: 5px 5px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 10px;
+    padding-right: 7px;
+    display: block;
+  }
+  /* education */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #education .div-img-bg {
+    padding: 0;
+  }
+  #education .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #education .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #education .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+ /*  experience  */
+  #experience .div-img-bg {
+    padding: 0;
+  }
+  #experience .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #experience .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #experience .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #photography .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 320px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 320px) {
+
+  .header-content h1 {
+    font-size: 28px;
+  }
+
+  /* Navbar */
+  nav {
+    padding: 5px 5px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 10px;
+    padding-right: 7px;
+    display: block;
+  }
+  /* About */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #education .div-img-bg {
+    padding: 0;
+  }
+  #education .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #education .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #education .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* experience  */
+  #experience .div-img-bg {
+    padding: 0;
+  }
+  #experience .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #experience .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #experience .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #photography .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+  /* Single page */
+  .entry-comments-body span {
+    display: inline-block;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 660px)  {
+  .mobile-break { display: none; }
+}
