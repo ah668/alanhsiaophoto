@@ -406,6 +406,7 @@ nav ul li a {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  background-color: #008CBA;
 }
 
 .services-block .container:hover .overlay {
