@@ -501,10 +501,12 @@ nav ul li a {
   margin-bottom: 30px;
   overflow: hidden;
   min-height: 260px;
+  pointer-events: none;
 }
 
 .portfolio-thumbnail img {
   max-width: 100%;
+  pointer-events: none;
 }
 
 /*-----------------------------------------------------------------------------------*/
