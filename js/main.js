@@ -67,9 +67,9 @@ $(document).ready(function() {
   //  // RESPONSIVE MENU
   // ========================================================================= //
 
-  // $('.responsive').on('click', function(e) {
-  //   $('.nav-menu').slideToggle();
-  // });
+  $('.responsive').on('click', function(e) {
+    $('.nav-menu').slideToggle();
+  });
 
   // ========================================================================= //
   //  Typed Js
