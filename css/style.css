@@ -384,7 +384,40 @@ nav ul li a {
 
 .services-block .services-info img {
   max-width: 100%;
+
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+  /* transition: all 0.5s ease-in-out 0s; */
 }
+
+.services-block .services-info:hover img {
+  opacity: 0.3;
+}
+
+.services-block .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.services-block .container:hover .overlay {
+  opacity: 1;
+}
+
+/* .services-block .services-info img:hover {
+  color: #dfdfdf;
+  max-width: 100%;
+  transition: all 0.5s ease-in-out 0s;
+} */
+
 
 .services-block .services-info .services-txt {
   padding: 5px 0px;
@@ -481,7 +514,7 @@ nav ul li a {
   height: auto;
   background: #1d1d1d;
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 80px;
 }
 /* 
 #about .div-img-bg {
