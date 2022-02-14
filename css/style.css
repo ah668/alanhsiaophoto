@@ -10,8 +10,8 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
-  background: #ffffff;
-  color: #898989;
+  background: #1d1d1d;
+  color: #ffffff;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #dfdfdf;
   font-weight: 600;
 }
 
@@ -43,7 +43,7 @@ h4 {
 }
 
 a {
-  color: #292929;
+  color: #dfdfdf;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -70,7 +70,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 12px;
-  color: #999999;
+  color: #dfdfdf;
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -109,12 +109,12 @@ p {
   width: 140px;
   height: 50px;
   line-height: 50px;
-  padding: 0 0px;
+  padding: 0px 0px 50px;
   text-transform: uppercase;
 }
 
 .btn:hover, .btn:focus {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .padDiv {
@@ -135,7 +135,7 @@ p {
   background-color: transparent;
   border: 1px solid #999;
   border-radius: 0;
-  color: #999999;
+  color: #dfdfdf;
   font-size: 12px;
   font-weight: 500;
   height: 50px;
@@ -189,7 +189,7 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: #1d1d1d;
   z-index: 1000;
   width: 100%;
   padding: 5px;
@@ -219,7 +219,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: #dfdfdf;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
@@ -250,12 +250,32 @@ nav ul li a {
 /*  Headers
 /*-----------------------------------------------------------------------------------*/
 
-#header {
+/*#header {
   background: url("../images/personal/header-me.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
+*/
 
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+  #background-video { display: none; }
+  body {
+    background: url("../images/personal/header-me-snip2.jpg") no-repeat;
+    background-size: cover;
+  }
+}
 
 #header .header-content {
   height: 100vh;
