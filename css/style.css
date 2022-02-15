@@ -293,8 +293,9 @@ nav ul li a {
 }
 
 @media (max-width: 750px) {
-  #background-video { display: none; }
-  body {
+  #header .background-video { display: none; }
+  #header 
+  {
     background: url("../images/personal/header-me-snip2.jpg") no-repeat;
     background-size: cover;
   }
