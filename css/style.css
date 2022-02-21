@@ -296,8 +296,8 @@ nav ul li a {
   #header .background-video { display: none; }
   #header 
   {
-    /*background: url("../images/portfolio/Architecture/DSC_3469.jpg") no-repeat;
-    */background-size: cover;
+    background: url("../images/portfolio/Landscapes/DSC_2213.jpg") no-repeat;
+    background-size: cover;
   }
 }
 
