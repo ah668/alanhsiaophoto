@@ -292,14 +292,14 @@ nav ul li a {
   z-index: -1;
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   #header .background-video { display: none; }
   #header 
   {
     background: url("../images/portfolio/Landscapes/DSC_2213.jpg") no-repeat;
     background-size: cover;
   }
-}
+} */
 
 #header .header-content {
   height: 100vh;
